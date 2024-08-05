@@ -9,6 +9,26 @@
   justify-content: space-around;
   align-items: flex-end;
 }
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 100px;
+  align-items: center;
+}
+.table {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 90vw;
+  min-height: 400px;
+  overflow-y: scroll;
+ 
+}
+.table::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
 
 table {
   width: 100%;
